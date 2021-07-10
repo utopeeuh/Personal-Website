@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.ico">
+    <title>Daffa Amadeo</title>
+    <link rel="stylesheet" href="reset.css">
+    <link id="themeCSS" rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Ubuntu:wght@500&display=swap');
+    </style>
+</head>
+
+<body>
+    <button onclick="topFunction()" id="topBtn">
+        <i class="fas fa-angle-up"></i>
+    </button>
+
+    <header class="flex-row header-container" id="navbar">
+        <img src="img/logo-peach.png">
+        <div class="h5 white f2"><a href="#about">About</a></div>
+        <div class="h5 white f2"><a href="#projects">Projects</a></div>
+        <div class="h5 white f2"><a href="#contact">Contact</a></div>
+        <div class="h5 white f2">Resume</div>
+    </header>
+
+    <div class="flex-row container">
+        <div class="flew-column title-container">
+            <div class="h2 white f1">Hey, my name is</div>
+            <div class="h1 peach f1">Daffa Amadeo.</div>
+            <div class="h5 grey f2 title-desc">I’m a computer student at BINUS University, currently based in Jakarta.
+                <br/> 
+                Testing the waters of web development.
+            </div>
+        </div>
+        <div class="face-picture-container"></div>
+    </div>
+    
+    <div class="flex-row seperator" id="about">
+        <div>
+            <hr class="solid">
+            <span class="h4 white f1">A little </span>
+            <span class="h4 peach f1">about </span>
+            <span class="h4 white f1">me</span>
+        </div>
+    </div>
+
+    <div class="flex-column container desc-container">
+        <div class="desc-text white f2">
+            I enjoy learning and experimenting when it comes to programming while striving to learn more and more every day. I prefer having a more hands-on approach and figuring things out on the way rather than studying theory and applying it at a later time. The thrill of endless discovery and taking in the tiny details here and there are what makes it fun for me!
+        </div>
+        <div class="desc-text white f2">
+            Both graphic designing and video editing, have also grown to be my passions as I continuously train my creativity. They serve as a gateway for me to keep in touch with my child-self, one who has way more bizarre and abstract ideas than I do.
+        </div>
+    </div>
+
+    <div class="flex-row seperator" id="projects">
+        <div>
+            <hr class="solid">
+            <span class="h4 white f1">A few </span>
+            <span class="h4 peach f1">projects </span>
+            <span class="h4 white f1">I've worked on</span>
+        </div>
+    </div>
+
+    <div class="flex-column container">
+        <div class="flex-column project-container">
+            <div class="flex-row">
+                <div class="h3 peach f2">01.</div>
+                <div class="h3 white f1 project-name">Backspace Typing Test</div>
+            </div>
+            
+            <div class="flex-row project-subcontainer">
+                <div class="projectThumb">
+                </div>
+                <div class="flex-column">
+                    <div class="h5 lightgrey project-desc f2 al-right">A web app that measures your typing speed and accuracy. View your personal bests, apply a variety of themes, and test out your speed in different languages</div>
+                    <div class="flex-row">
+                        <i class="fab fa-github"></i>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="project-thumbnail"></div>
+            <div class="h6 peach f2">HTML  •  CSS  •  JS</div>
+        </div>
+    </div>
+
+    <div class="flex-column container">
+        <div class="flex-column project-container">
+            <div class="flex-row reverse">
+                <div class="h3 white f1 project-name">Backspace Typing Test</div>
+                <div class="h3 peach f2">01.</div>
+            </div>
+            
+            <div class="flex-row project-subcontainer reverse">
+                <div class="projectThumb">
+                </div>
+                <div class="flex-column">
+                    <div class="h5 lightgrey project-desc f2 al-left">A web app that measures your typing speed and accuracy. View your personal bests, apply a variety of themes, and test out your speed in different languages</div>
+                    <div class="flex-row reverse">
+                        <i class="fab fa-github"></i>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="project-thumbnail"></div>
+            <div class="h6 peach f2 al-right">HTML  •  CSS  •  JS</div>
+        </div>
+    </div>
+
+    <div class="flex-row seperator" id="contact">
+        <div>
+            <hr class="solid">
+            <span class="h4 peach f1">Contact </span>
+            <span class="h4 white f1">me</span>
+        </div>
+    </div>
+
+    <div class="flex-row container contact-container">
+        <div class="flex-column contact-sosmed">
+            <a href="https://www.linkedin.com/in/daffa-amadeo-81011318b/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <div class="h5 white f2">Daffa Amadeo</div>
+        </div>
+        <div class="flex-column contact-sosmed">
+            <a href="https://github.com/utopeeuh/" target="_blank"><i class="fab fa-github" id="ghBtn"></i></a>
+            <div class="h5 white f2">utopeeuh</div>
+        </div>
+        <div class="flex-column contact-sosmed">
+            <i class="far fa-envelope"></i>
+            <div class="h5 white f2">daffamadeo@gmail.com</div>
+        </div>
+    </div>
+
+    <footer class="flex-row footer">
+        <div class="h6 white f2">© 2021 Daffa Amadeo. Theme inspired by <span class="peach">GMK Olivia</span></div>
+        
+    </footer>
+</body>
+
+<script src="https://kit.fontawesome.com/c0f7e988b7.js" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</html>
+
+<!-- https://coolors.co/052c39-d73833-facb0f-9cb4bf -->
