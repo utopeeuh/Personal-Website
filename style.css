@@ -29,6 +29,10 @@ a:hover {
   color: var(--peach);
 }
 
+ul {
+  list-style-type: circle;
+}
+
 .lightpeach {
   color: var(--lightpeach);
 }
@@ -178,6 +182,10 @@ body {
   line-height: 25px;
 }
 
+.tech-list {
+  gap: 4rem;
+}
+
 .seperator {
   justify-content: center;
   gap: 2rem;
@@ -215,8 +223,20 @@ hr.solid {
   background-color: var(--darkgrey);
   border-radius: 0.5rem;
   width: 400px;
-  height: 200px;
-  filter: drop-shadow(0 0.3rem 0.1rem rgba(0, 0, 0, 0.158));
+  height: 300px;
+  filter: grayscale(100%) drop-shadow(0 0.3rem 0.1rem rgba(0, 0, 0, 0.158));
+}
+
+.projectThumb:hover {
+  filter: grayscale(0) drop-shadow(0 0.3rem 0.1rem rgba(0, 0, 0, 0.158));
+}
+
+#proj1 {
+  background: url("img/proj1-thumb.png");
+}
+
+#proj2 {
+  background: url("img/proj2-thumb.png");
 }
 
 i {

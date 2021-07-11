@@ -24,12 +24,12 @@
         <div class="h5 white f2"><a href="#about">About</a></div>
         <div class="h5 white f2"><a href="#projects">Projects</a></div>
         <div class="h5 white f2"><a href="#contact">Contact</a></div>
-        <div class="h5 white f2">Resume</div>
+        <div class="h5 white f2"><a href="resume.pdf">Resume</a></div>
     </header>
 
     <div class="flex-row container">
         <div class="flew-column title-container">
-            <div class="h2 white f1">Hey, my name is</div>
+            <div class="h2 white f1" id="top">Hey, my name is</div>
             <div class="h1 peach f1">Daffa Amadeo.</div>
             <div class="h5 grey f2 title-desc">I’m a computer student at BINUS University, currently based in Jakarta.
                 <br/> 
@@ -55,6 +55,22 @@
         <div class="desc-text white f2">
             Both graphic designing and video editing, have also grown to be my passions as I continuously train my creativity. They serve as a gateway for me to keep in touch with my child-self, one who has way more bizarre and abstract ideas than I do.
         </div>
+        <div class="desc-text white f2">
+            A few technologies I'm familiar with:
+        </div>
+        <div class="flex-row desc-text peach f2 al-left tech-list">
+            <ul>
+                <li>Javascript</li>
+                <li>C++</li>
+                <li>C</li>
+                <li>C#</li>
+            </ul>
+            <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>ASP.NET</li>
+            </ul>
+        </div>
     </div>
 
     <div class="flex-row seperator" id="projects">
@@ -74,17 +90,15 @@
             </div>
             
             <div class="flex-row project-subcontainer">
-                <div class="projectThumb">
+                <div class="projectThumb" id="proj1">
                 </div>
                 <div class="flex-column">
                     <div class="h5 lightgrey project-desc f2 al-right">A web app that measures your typing speed and accuracy. View your personal bests, apply a variety of themes, and test out your speed in different languages</div>
                     <div class="flex-row">
-                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/utopeeuh/backspace-typetest" target="_blank"><i class="fab fa-github"></i></a>
                     </div>
                 </div>
-               
             </div>
-            <div class="project-thumbnail"></div>
             <div class="h6 peach f2">HTML  •  CSS  •  JS</div>
         </div>
     </div>
@@ -92,22 +106,21 @@
     <div class="flex-column container">
         <div class="flex-column project-container">
             <div class="flex-row reverse">
-                <div class="h3 white f1 project-name">Backspace Typing Test</div>
-                <div class="h3 peach f2">01.</div>
+                <div class="h3 white f1 project-name">To-Do-List</div>
+                <div class="h3 peach f2">02.</div>
             </div>
             
             <div class="flex-row project-subcontainer reverse">
-                <div class="projectThumb">
+                <div class="projectThumb" id="proj2">
                 </div>
                 <div class="flex-column">
-                    <div class="h5 lightgrey project-desc f2 al-left">A web app that measures your typing speed and accuracy. View your personal bests, apply a variety of themes, and test out your speed in different languages</div>
+                    <div class="h5 lightgrey project-desc f2 al-left">A web app that provides various time-management tools such as a calendar, priority-based task list, and basics such as a stopwatch and timer.</div>
                     <div class="flex-row reverse">
-                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/utopeeuh/to-do-list" target="_blank"><i class="fab fa-github"></i></a>
                     </div>
                 </div>
                
             </div>
-            <div class="project-thumbnail"></div>
             <div class="h6 peach f2 al-right">HTML  •  CSS  •  JS</div>
         </div>
     </div>
@@ -130,7 +143,7 @@
             <div class="h5 white f2">utopeeuh</div>
         </div>
         <div class="flex-column contact-sosmed">
-            <i class="far fa-envelope"></i>
+            <a href="mailto:daffamadeo@gmail.com"><i class="far fa-envelope"></i></a>
             <div class="h5 white f2">daffamadeo@gmail.com</div>
         </div>
     </div>
